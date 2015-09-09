@@ -3,11 +3,12 @@ body{
 }
 
 h1{
-
+/*
 }
 label, input, textarea{
 	display: block;
 }
+
 input[type="radio"], input[type="checkbox"]{
 	display: inline-block;
 }
