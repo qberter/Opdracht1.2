@@ -31,14 +31,14 @@
 				<form>
 					<fieldset>
 						<legend>Contactgegevens:</legend>
-							<label>Naam<br><input type="text" required></label><br>
-							<label>Bedrijf<br><input type="text" required></label><br>
-							<label>Adres<br><input type="text"></label><br>
-							<label>Postcode<br><input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}"></label><br>
-							<label>Plaats<br><input type="text" required></label><br>
-							<label>Telefoon<br><input type="tel" required></label><br>
-							<label>Email<br><input type="email" required></label><br>
-							<br>
+							<label>Naam<input type="text" required></label>
+							<label>Bedrijf<input type="text" required></label>
+							<label>Adres<input type="text"></label>
+							<label>Postcode<input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}"></label>
+							<label>Plaats<input type="text" required></label>
+							<label>Telefoon<input type="tel" required></label>
+							<label>Email<input type="email" required></label>
+							
 						<select>
 							<option value="project">Voor een project</option>
 							<option value="stage">Als stagebedrijf</option>
@@ -47,57 +47,57 @@
 
 					<fieldset id="project">
 						<legend>Project</legend>
-							<label>Titel<br><input type="text" required></label><br>
-							<label>Opdrachtomschrijving<br><textarea rows="6"></textarea></label><br>
-							<label>Doelgroepomschrijving<br><textarea rows="6"></textarea></label><br>
-							<label>Doelstelling/intentie van het project<br><textarea rows="6"></textarea></label><br>
-							<label>looptijd<br><input type="number" min="1" max="50" step="1" value="10"> weken</label><br>
-							<label>deadline<br><input type="date" required></label><br>
-							<br>
+							<label>Titel<input type="text" required></label>
+							<label>Opdrachtomschrijving<textarea rows="6"></textarea></label>
+							<label>Doelgroepomschrijving<textarea rows="6"></textarea></label>
+							<label>Doelstelling/intentie van het project<textarea rows="6"></textarea></label>
+							<label>looptijd in weken<input type="number" min="1" max="50" step="1" value="10"></label>
+							<label>deadline<input type="date" required></label>
+							
 
-							<label>Geschikt voor<br></label>
-							<label><input type="checkbox" name="eerste"> eerstejaars studenten</label><br>
-							<label><input type="checkbox" name="tweede"> tweedejaars studenten</label><br>
-							<label><input type="checkbox" name="derde"> derdejaars studenten</label><br>
-							<label><input type="checkbox" name="afstudeer"> afstudeer studenten</label><br>
-							<label><input type="checkbox" name="onbekend"> onbekend</label><br>
-							<br>
+							<label>Geschikt voor</label>
+							<label><input type="checkbox" name="eerste"> eerstejaars studenten</label>
+							<label><input type="checkbox" name="tweede"> tweedejaars studenten</label>
+							<label><input type="checkbox" name="derde"> derdejaars studenten</label>
+							<label><input type="checkbox" name="afstudeer"> afstudeer studenten</label>
+							<label><input type="checkbox" name="onbekend"> onbekend</label>
+							
 
-							<label>Opmerking<br><textarea rows="6"></textarea></label><br>
-							<br>
+							<label>Opmerking<textarea rows="6"></textarea></label>
+							
 
 							<input type="submit" value="submit">
 					</fieldset>
 						
 					<fieldset id="stage">
 						<legend>Stage</legend>
-							<label>Geschikt voor</label><br>
-							<label><input type="checkbox" name="tweede"> tweedejaars studenten</label><br>
-							<label><input type="checkbox" name="afstudeer"> afstudeer studenten</label><br>
-							<label><input type="checkbox" name="onbekend"> onbekend</label><br>
-							<br>
-
-							<label>Hoelang is de stage?</label><br>
-							<label><input type="radio" name="ten"> 10 weken</label><br>
-							<label><input type="radio" name="twenty"> 20 weken</label><br>
-							<br>
-
-							<label>Begin datum<br><input type="date"></label><br>
-							<br>
-
-							<label>Beschrijving werkzaamheden<br><textarea rows="6"></textarea></label><br>
-							<br>
+							<label>Geschikt voor</label>
+							<label><input type="checkbox" name="tweede"> tweedejaars studenten</label>
+							<label><input type="checkbox" name="afstudeer"> afstudeer studenten</label>
+							<label><input type="checkbox" name="onbekend"> onbekend</label>
 							
-							<label>Bedrijfsnaam<br><input type="text" required></label><br>
-							<label>Adres<br><input type="text"></label><br>
-							<label>Postcode<br><input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}"></label><br>
-							<label>Plaats<br><input type="text"></label><br>
-							<label>Sector<br><input type="text" required></label><br>
-							<label>CoreBusiness<br><input type="text" required></label><br>
-							<br>
 
-							<label>Opmerking<br><textarea rows="6"></textarea></label><br>
-							<br>
+							<label>Hoelang is de stage?</label>
+							<label><input type="radio" name="weken" value="10"> 10 weken</label>
+							<label><input type="radio" name="weken" value="20"> 20 weken</label>
+							
+
+							<label>Begin datum<input type="date"></label>
+							
+
+							<label>Beschrijving werkzaamheden<textarea rows="6"></textarea></label>
+							
+							
+							<label>Bedrijfsnaam<input type="text" required></label>
+							<label>Adres<input type="text"></label>
+							<label>Postcode<input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}"></label>
+							<label>Plaats<input type="text"></label>
+							<label>Sector<input type="text" required></label>
+							<label>CoreBusiness<input type="text" required></label>
+							
+
+							<label>Opmerking<textarea rows="6"></textarea></label>
+							
 
 							<input type="submit" value="submit">
 					</fieldset>
